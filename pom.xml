@@ -140,4 +140,10 @@
             </plugin>
         </plugins>
     </reporting>
+    <distributionManagement>
+        <site>
+            <id>shrek</id>
+            <url>scp://@shrek.unideb.hu:2222/home/hossamehab/public_html/${project.artifactId}</url>
+        </site>
+    </distributionManagement>
 </project>
